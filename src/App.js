@@ -51,7 +51,7 @@ function App() {
               <Route path={`${process.env.PUBLIC_URL + "/category/:slug"}`}component ={BlogCategories} />
               <Route path={`${process.env.PUBLIC_URL + "/blog-details/:id"}`}component ={BlogDetails} />
               <Route path={`${process.env.PUBLIC_URL + "/contact"}`} component ={Contact} />
-              <Route component ={NotFound} />
+              {/* <Route component ={NotFound} /> */}
             </Switch>
           </NavScrollTop>
       </Router>
